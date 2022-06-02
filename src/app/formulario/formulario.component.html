@@ -1,0 +1,16 @@
+<div>
+    <div class="form">
+        <label for="titulo">TITULO</label><br>
+        <input type="text" id="titulo" [(ngModel)]="nuevaTarea.titulo">
+    </div>
+    <br>
+    <div class="form">
+        <label for="titulo">DESCRIPCION</label><br>
+        <input type="text" [(ngModel)] = "nuevaTarea.descripcion">
+    </div>
+    <div class="form">
+        <br>
+        <button (click)="onSend()">ENVIAR</button>
+    </div>
+</div>
+<p>{{ nuevaTarea }}</p>

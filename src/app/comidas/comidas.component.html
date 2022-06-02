@@ -1,0 +1,11 @@
+<div class="contenedor" >
+    <div class="caja" *ngFor="let comida of comidas; index as i " (click)="seleccion(comida)">
+        <div>
+            imagen
+        </div>
+        <div class="contenido">
+            <p>{{comida.nombre}}</p>
+            <p>$ {{comida.precio}}</p>
+        </div>
+    </div>
+</div>

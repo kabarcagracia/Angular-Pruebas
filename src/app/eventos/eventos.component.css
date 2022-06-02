@@ -1,0 +1,12 @@
+.caja {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.box {
+    padding: 2em;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

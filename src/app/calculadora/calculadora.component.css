@@ -1,0 +1,48 @@
+.caja {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+
+}
+.sub-caja {
+    background-color: gray;
+    width: 30em;
+    border: 1px solid black;
+}
+.resultado {
+    background-color: white;
+    margin: 2em 1em 2em 1em;
+    padding: 1em;
+    text-align: center;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 1em 0 1em;
+    justify-content: center;
+}
+.num {
+    width: 33.3%;
+    padding: 1em;
+   
+}
+.numCero {
+    width: 100%;
+    padding: 1em;
+}
+.op {
+    width: 25%;
+    padding: 1em;
+}
+.opIgual {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+}

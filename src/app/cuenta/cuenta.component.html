@@ -1,0 +1,7 @@
+<div class="contenedor" >
+    <p><strong>TOTAL SIN IVA = </strong> {{ sumaSinIva() }}</p>
+    <p><strong>TOTAL(19%) = </strong> {{ sumaTotal() }}</p>
+    <div class="caja" *ngFor="let productos of prod; index as i">
+        <p>{{productos.nombre}} X {{productos.cantidad}} ................................. {{productos.precio}}</p>
+    </div>
+</div>

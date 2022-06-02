@@ -1,0 +1,15 @@
+<!--<div [innerHTML]="mostrarData()"></div>-->
+<div class="contenedor" >
+    <div class="caja" *ngFor="let tarea of tareas; index as i " [ngClass]="{completa: tarea.completa, incompleta: !tarea.completa}">
+        <p>{{i}}</p>
+        <h3>{{tarea.titulo}}</h3>
+        <p>{{tarea.descripcion}}</p>
+        <p>{{tarea.completa}}</p>
+
+        <div>
+            <button (click)="completa(i)"> completa</button>
+            <button (click)="borrar(i)"> borrar</button>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="caja">
+    <div class="sub-caja">
+        <div class="resultado">{{resultado}}</div>
+        <div class="botones">
+            <button class="num" (click)="concatenar('1')" value="1">1</button>
+            <button class="num" (click)="concatenar('2')" value="1">2</button>
+            <button class="num" (click)="concatenar('3')" value="1">3</button>
+            <button class="num" (click)="concatenar('4')" value="1">4</button>
+            <button class="num" (click)="concatenar('5')" value="1">5</button>
+            <button class="num" (click)="concatenar('6')" value="1">6</button>
+            <button class="num" (click)="concatenar('7')" value="1">7</button>
+            <button class="num" (click)="concatenar('8')" value="1">8</button>
+            <button class="num" (click)="concatenar('9')">9</button>
+            <button class="numCero" (click)="concatenar('0')">0</button>
+            <button class="op" (click)="concatenar('+')">+</button>
+            <button class="op" (click)="concatenar('-')">-</button>
+            <button class="op" (click)="concatenar('*')">*</button>
+            <button class="op" (click)="concatenar('/')">/</button>
+            <button class="opIgual" (click)="evaluar()">=</button>
+        </div>
+    </div>
+</div>

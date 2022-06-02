@@ -1,0 +1,17 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.caja {
+    width: 5em;
+    border: 1px solid black;
+    padding: 1em;
+}
+.completa{
+    background-color: green;
+}
+.incompleta {
+    background-color: red;
+}

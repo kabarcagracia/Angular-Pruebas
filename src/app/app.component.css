@@ -1,0 +1,42 @@
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    margin: 5em;
+    background-color: whitesmoke;
+}
+.formulario {
+    width: 70%;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+.lista {
+    width: 30%;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    width: 100%;
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+}
+.izquierda {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.derecha {
+    width: 30%;
+}
+
+.comidas, .bebidas, .cuenta {
+    padding: 1em;
+}

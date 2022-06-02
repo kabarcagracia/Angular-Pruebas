@@ -1,0 +1,14 @@
+<div style="border: 1px solid black; margin-top: 2em;">
+    <h1 style="text-align: center;">CRONOMETRO</h1>
+    <p style="text-align: center;font-size: 2em;">{{ cronometro }}</p>
+    <button (click)="onClick($event)">START</button>
+</div>
+
+<div>
+    <select (change)="onChange($event)">
+        <option value="uno">1</option>
+        <option value="dos">2</option>
+        <option value="tres">3</option>
+    </select>
+</div>
+

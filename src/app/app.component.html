@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="titulo">
+        <h1 style="text-align: center;">Caja Registradora</h1>
+    </div>
+    <div class="cont">
+        <div class="izquierda">
+            <div class="comidas">
+                <h3 style="background-color: gray;">COMIDAS</h3>
+                <app-comidas (ObjetoEnviado)="objectProducts($event)"></app-comidas>
+            </div>
+            <div class="bebidas">
+                <H3 style="background-color: gray;">BEBIDAS</H3>
+                <app-bebidas></app-bebidas>
+            </div>
+        </div>
+        <div class="derecha">
+            <div class="cuenta">
+                <H3 style="background-color: gray;">CUENTAS</H3>
+                <app-cuenta [prod]="arrayProductos"></app-cuenta>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+<div class="contenedor">
+    <div class="formulario">
+        <app-formulario (ObjetoEnviado)="objectReceived($event)"></app-formulario>
+    </div>
+    <div class="lista">
+        <app-lista [tareas]="arraytareas"></app-lista>
+    </div>
+</div>
+
+
+
+
+<!--<app-sumar [a]="numerosa[0]" [b]="numerosb[0]"></app-sumar>
+<app-sumar [a]="numerosa[1]" [b]="numerosb[1]"></app-sumar>
+<app-sumar [a]="numerosa[2]" [b]="numerosb[2]"></app-sumar>
+<app-alerta mensaje="hola a todos" subtitulo="como estan?" (alertaPulsada)="onPulsada($event)"></app-alerta>-->
+
+
+<!--<app-cronometro [numero]="11" (alertaPulsada)="onCronometro($event)"></app-cronometro>
+<app-cronometro [numero]="5" (alertaPulsada)="onCronometro($event)"></app-cronometro>
+<app-cronometro [numero]="2" (alertaPulsada)="onCronometro($event)"></app-cronometro>
+<app-cronometro [numero]="18" (alertaPulsada)="onCronometro($event)"></app-cronometro>-->
+
+
+
+<!-- TWO BINDING-->
+
+<!--<input type="text" [(ngModel)]="campoTexto1">
+
+<p>{{campoTexto1}}</p>
+<p>
+    <button (click)="onClick()">cambio variable</button>
+</p>-->
+
+
+<!-- TWO BINDING CON OBJETOS-->
+
+<!--<div>
+    <input type="text" [(ngModel)]="persona.nombre">
+    <input type="text" [(ngModel)]="persona.apellidos">
+    <input type="number" [(ngModel)]="persona.edad">
+</div>
+
+<p> me llamo {{persona.nombre}} {{persona.apellidos}} y tengo {{persona.edad}}  años</p>-->

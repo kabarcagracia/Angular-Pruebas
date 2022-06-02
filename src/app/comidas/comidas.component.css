@@ -1,0 +1,16 @@
+.contenedor {
+
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.contenedor > div {
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.contenido {
+    padding: 1em;
+}
